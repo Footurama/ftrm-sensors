@@ -1,0 +1,42 @@
+{
+  "name": "ftrm-sensors",
+  "version": "0.0.0",
+  "description": "Reading sensors and stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "happiness && jest --verbose",
+    "watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Footurama/ftrm-sensors.git"
+  },
+  "keywords": [
+    "iot",
+    "home automation"
+  ],
+  "author": "Juergen Fitschen <me@jue.yt>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Footurama/ftrm-sensors/issues"
+  },
+  "homepage": "https://github.com/Footurama/ftrm-sensors#readme",
+  "devDependencies": {
+    "happiness": "^10.0.2",
+    "jest": "^23.1.0"
+  },
+  "happiness": {
+    "globals": [
+      "jest",
+      "describe",
+      "test",
+      "expect",
+      "beforeEach"
+    ]
+  },
+  "jest": {
+    "automock": false,
+    "clearMocks": true
+  },
+  "dependencies": {}
+}
